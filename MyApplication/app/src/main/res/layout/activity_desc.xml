@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFF5E1"
+    tools:context=".DescActivity">
+
+    <!-- Imagem da Receita -->
+    <ImageView
+        android:id="@+id/recipeImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Imagem da Receita"/>
+
+    <!-- Título da Receita -->
+    <TextView
+        android:id="@+id/recipeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#8B4513"
+        android:text="Salada Mediterrânea"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Subtítulo da Receita -->
+    <TextView
+        android:id="@+id/recipeSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#5A5A5A"
+        android:text="Uma salada fresca e saudável"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Descrição da Receita -->
+    <TextView
+        android:id="@+id/recipeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#5A5A5A"
+        android:text="Uma salada refrescante com tomates, pepinos e queijo feta. Ideal para um almoço leve e nutritivo."
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Título dos Ingredientes -->
+    <TextView
+        android:id="@+id/ingredientsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#8B4513"
+        android:text="Ingredientes"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Lista de Ingredientes -->
+    <TextView
+        android:id="@+id/recipeIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#5A5A5A"
+        android:text="• 2 tomates\n• 1 pepino\n• 100g de queijo feta\n• Azeite a gosto\n• Sal e pimenta a gosto"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botão de Voltar -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar para a Lista de Receitas"
+        android:layout_gravity="center"/>
+</LinearLayout>

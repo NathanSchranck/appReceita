@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5E1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Receita 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/recipeImage1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/recipeTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Receita 1: Salada Mediterrânea"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/recipeDesc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uma salada fresca com tomates, pepinos, e queijo feta."
+                android:layout_marginTop="4dp"/>
+
+            <Button
+                android:id="@+id/descButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ver descrição"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <!-- Receita 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/recipeImage2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/recipeTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Receita 2: Lasanha Clássica"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/recipeDesc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lasanha tradicional com molho de tomate e queijo."
+                android:layout_marginTop="4dp"/>
+
+            <Button
+                android:id="@+id/descButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ver descrição"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <!-- Receita 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@android:color/white"
+            android:elevation="4dp">
+
+            <ImageView
+                android:id="@+id/recipeImage3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/recipeTitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Receita 3: Bolo de Chocolate"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/recipeDesc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Um bolo macio com cobertura de ganache de chocolate."
+                android:layout_marginTop="4dp"/>
+
+            <Button
+                android:id="@+id/descButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ver descrição"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
